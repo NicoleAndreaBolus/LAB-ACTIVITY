@@ -1,0 +1,52 @@
+.bg-navyblue {
+    background-color: #001f3f !important;
+}
+
+
+.bg-main{
+    background-color: rgb(245, 245, 204);
+}
+
+
+.pokedex-card {
+      max-width: 900px;
+      margin: 50px auto;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      overflow: hidden;
+    }
+.left-panel {
+    background: #002244;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.left-panel img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.poke-number {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.poke-name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.type-badge {
+    background-color: #aaa;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.tab-pane {
+    padding: 20px;
+}
