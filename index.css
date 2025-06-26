@@ -1,3 +1,5 @@
+/* Nav */
+
 .bg-navyblue {
   background-color: #001f3f !important;
 }
@@ -63,8 +65,8 @@
 /* Skills Section */
 
 .skill-title {
-  font-family: 'Press Start 2P', cursive; /* Still needs Google Fonts link in <head> */
-  font-size: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 28px;
 }
 
 .pokemon-card-content {
@@ -251,7 +253,7 @@
   padding: 15px;
 }
 
-/* evolution */
+/* Evolution */
 
 .evolution-section {
   font-family: 'Press Start 2P', cursive;
@@ -321,9 +323,7 @@
 /* Trainer */
 
 .trainer-section {
-  background-color: #1d2b53; /* Game Boy Blue */
-  border-top: 4px double #fff;
-  border-bottom: 4px double #fff;
+  background-color: #1d2b53;
 }
 
 .trainer-card {
