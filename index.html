@@ -1,24 +1,27 @@
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPT-ACTIVITY</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <title>IP-ACTIVITY</title>
-    
-    <!-- Bootstrap Link -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-     <link rel="stylesheet" href="./index.css">
-
-     <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet">
-
-     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+    <!-- Nav -->
+
 
     <div class="d-flex p-3 bg-navyblue text-light border-5 border-bottom border-warning sticky-top">
-        <div class="text-warning fw-bold me-auto">
+
+        <div class="ms-2 me-4">
+            <img src="https://cdn-icons-png.flaticon.com/512/189/189001.png" alt="" style="width: 50px; height: 50px;">
+        </div>
+
+        <div class="fw-bold me-auto">
             <h1 class="text-warning fw-bold">SNORLAX</h1></div>
 
         <div class="d-flex">
@@ -28,7 +31,8 @@
         </div>
     </div>
 
-    <div class="row d-flex justify-content-around">
+    <!-- Intro -->
+     <div class="d-flex justify-content-around">
 
             <!-- Snorlax Image -->
             <div>
@@ -40,104 +44,95 @@
             </div>
     </div>
 
-    <div class="container-fluid p-3 p-lg-5 bg-navyblue">
 
-        <h2 class="text-center fw-bold mb-4 text-light">Snorlax Skill Cards</h2>
+    <div class="bg-dark">
 
-  <!-- Other Projects Start -->
-  <div class="row d-flex justify-content-around">
 
-        <!-- Body Slam Start -->
-      <div class="col-lg-3 col-md-6 col-12 p-3 pokemon-card-wrapper">
-        <div class="pokemon-card-border">
-          <div class="pokemon-card-content normal-card">
-            <div class="card-header">
-              <h4 class="card-title">Body Slam</h4>
-              <span class="hp">HP 160</span>
-            </div>
-            <img src="./images/bodyslam.gif" class="card-img" alt="Body Slam">
-            <div class="card-body">
-              <p><strong>Pokémon:</strong> Snorlax</p>
-              <p><strong>Effect:</strong> Flip a coin. If heads, the Defending Pokémon is now Paralyzed.</p>
-              <div class="zmove mt-2">
-                Z-Move: Breakneck Blitz (160 Power)
-              </div>
-              <div class="stats mt-3">
-                <span><strong>Weakness:</strong> 🪨</span>
-                <span><strong>Resistance:</strong> 💤 -30</span>
-              </div>
-            </div>
-            <div class="card-footer">
-              <span>Type: Normal</span>
-              <span class="retreat">Retreat: ⬛⬛</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Body Slam End -->
+        <h2 class="text-center pt-5 fw-bold text-light">Snorlax Skill Cards</h2>
 
-  <!-- Mega Kick Card -->
-  <div class="col-lg-3 col-md-6 col-12 pokemon-card-wrapper">
-    <div class="pokemon-card-border">
-      <div class="pokemon-card-content fighting-card">
-        <div class="card-header">
-          <h4 class="card-title">Mega Kick</h4>
-          <span class="hp">HP 160</span>
+
+         <div class="bg-dark d-md-flex p-5 justify-content-around">
+                <div class="col-md-3 col-12 my-5 pokemon-card-border-body">
+                    <!-- Body Slam -->
+                    <div class="pokemon-card-content body-card">
+                        <div class="card-header">
+                            <h4 class="card-title">Body Slam</h4>
+                            <span class="hp">HP 160</span>
+                        </div>
+                        <img src="" alt="Body Slam" class="card-img">
+                        <div class="card-body">
+                            <p><strong>Pokémon:</strong> Snorlax</p>
+                            <p><strong>Effect:</strong> Flip a coin. If heads, the Defending Pokémon is now Paralyzed.</p>
+                            <div class="zmove-bs mt-2">
+                                Z-Move: Breakneck Blitz (160 Power)
+                            </div>
+                            <div class="stats mt-3">
+                                <span><strong>Weakness:</strong>🪨</span>
+                                <span><strong>Resistance:</strong>💤 -30</span>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                        
+                </div>
+
+                <div class="col-md-3 col-12 my-5 pokemon-card-border-mega">
+                    <!-- Mega Kick -->
+                    <div class="pokemon-card-content mega-card">
+                        <div class="card-header">
+                            <h4 class="card-title">Mega Kick</h4>
+                            <span class="hp">HP 160</span>
+                        </div>
+                        <img src="" alt="Mega Kick" class="card-img">
+                        <div class="card-body"></div>
+                        <p><strong>Pokémon:</strong> Snorlax</p>
+                        <p><strong>Effect:</strong> A powerful physical move that may cause the target to flinch.</p>
+                        <div class="zmove-mk mt-2">
+                            Z-Move: All-Out Pummeling (190 Power)
+                        </div>
+                        <div class="stats mt-3">
+                            <span><strong>Weakness:</strong> 🧠</span>
+                            <span><strong>Resistance:</strong> ❌</span>
+
+                        </div>
+                    </div>
+                        
+                </div>
+
+                <div class="col-md-3 col-12 my-5 pokemon-card-border-hyper">
+                    <!-- Hyper Beam -->
+                    <div class="pokemon-card-content hyper-card">
+                        <div class="card-header">
+                            <h4 class="card-title">Hyper Beam</h4>
+                            <span class="hp">HP 160</span>
+                        </div>
+                        <img src="" alt="Hyper Beam" class="card-img">
+                        <div class="card-body">
+                            <p><strong>Pokémon:</strong> Snorlax</p>
+                            <p><strong>Effect:</strong> Deals massive damage but requires recharge next turn.</p>
+                            <div class="zmove-hb mt-2">
+                                Z-Move: Devastating Drake (190 Power)
+                            </div>
+                        </div>
+                    </div>
+                        
+                </div>
+
         </div>
-        <img src="./images/megakick.gif" class="card-img" alt="Mega Kick">
-        <div class="card-body">
-          <p><strong>Pokémon:</strong> Snorlax</p>
-          <p><strong>Effect:</strong> A powerful physical move that may cause the target to flinch.</p>
-          <div class="zmove mt-2">
-            Z-Move: All-Out Pummeling (190 Power)
-          </div>
-          <div class="stats mt-3">
-            <span><strong>Weakness:</strong> 🧠</span>
-            <span><strong>Resistance:</strong> ❌</span>
-          </div>
-        </div>
-        <div class="card-footer">
-          <span>Type: Fighting</span>
-          <span class="retreat">Retreat: ⬛⬛</span>
-        </div>
-      </div>
+
     </div>
-  </div>
 
 
-  <!-- Hyper Beam Card -->
-    <div class="col-lg-3 col-md-6 col-12 pokemon-card-wrapper">
-      <div class="pokemon-card-border">
-        <div class="pokemon-card-content normal-card">
-          <div class="card-header">
-            <h4 class="card-title">Hyper Beam</h4>
-            <span class="hp">HP 160</span>
-          </div>
-          <img src="./images/hyperbeam.gif" class="card-img" alt="Hyper Beam">
-          <div class="card-body">
-            <p><strong>Pokémon:</strong> Snorlax</p>
-            <p><strong>Effect:</strong> Deals massive damage but requires recharge next turn.</p>
-            <div class="zmove mt-2">
-              Z-Move: Devastating Drake (190 Power)
-            </div>
-            <div class="stats mt-3">
-              <span><strong>Weakness:</strong> 🪨</span>
-              <span><strong>Resistance:</strong> ❌</span>
-            </div>
-          </div>
-          <div class="card-footer">
-            <span>Type: Normal</span>
-            <span class="retreat">Retreat: ⬛⬛⬛</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-</div>
-    <!-- BOOTSTRAP SCRIPT -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 
 </html>
