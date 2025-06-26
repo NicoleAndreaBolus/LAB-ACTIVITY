@@ -318,6 +318,68 @@
 }
 
 
+/* Trainer */
+
+.trainer-section {
+  background-color: #1d2b53; /* Game Boy Blue */
+  border-top: 4px double #fff;
+  border-bottom: 4px double #fff;
+}
+
+.trainer-card {
+  background-color: #fdf5e6;
+  border: 2px solid #333;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease-in-out;
+  border-radius: 12px;
+  padding: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:  space-between;
+  align-items: center;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.trainer-card:hover {
+  transform: scale(1.02);
+}
+
+.trainer-img {
+  margin-right: 100px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #333;
+  flex-shrink: 0;
+}
+
+
+.trainer-name {
+  font-family: 'Press Start 2P';
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: #222;
+}
+
+.trainer-quote {
+  font-family: monospace;
+  font-size: 11px;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.trainer-badge {
+  font-family: 'Press Start 2P';
+  font-size: 10px;
+  background: #ffc107;
+  padding: 2px 6px;
+  border: 1px solid #222;
+  border-radius: 4px;
+  color: #000;
+}
 
 
 
