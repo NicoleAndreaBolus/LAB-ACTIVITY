@@ -2,6 +2,11 @@
 
 .bg-navyblue {
   background-color: #001f3f !important;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 
@@ -66,7 +71,7 @@
 
 .skill-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 28px;
+  font-size: 23px;
 }
 
 .pokemon-card-content {
